@@ -55,3 +55,17 @@ body, html {
         left: 20%; /* テキスト位置の微調整 */
     }
 }
+
+/* タブレットサイズ (画面幅が768px以上1024px以下) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .speech-text {
+        font-size: 18px; /* タブレットでは少し小さめに */
+    }
+}
+
+/* スマートフォンサイズ (画面幅が767px以下) */
+@media (max-width: 767px) {
+    .speech-text {
+        font-size: 16px; /* スマートフォンではさらに小さく */
+    }
+}
