@@ -33,3 +33,25 @@ body, html {
     margin-bottom: 10px;
 }
 
+/* タブレットサイズ (画面幅が768px以上1024px以下) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .image-container img {
+        width: 50%; /* タブレットでは画像を大きく表示 */
+    }
+    .speech-text {
+        bottom: 15%; /* テキスト位置の微調整 */
+        left: 25%; /* テキスト位置の微調整 */
+    }
+}
+
+/* スマートフォンサイズ (画面幅が767px以下) */
+@media (max-width: 767px) {
+    .image-container img {
+        width: 75%; /* スマートフォンではさらに大きく表示 */
+    }
+    .speech-text {
+        font-size: 14px; /* スマートフォンではフォントサイズを小さく */
+        bottom: 10%; /* テキスト位置の微調整 */
+        left: 20%; /* テキスト位置の微調整 */
+    }
+}
