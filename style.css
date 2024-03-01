@@ -59,22 +59,8 @@ body, html {
 /* タブレットサイズ (画面幅が768px以上1024px以下) */
 @media (min-width: 768px) and (max-width: 1024px) {
     .speech-text {
-        font-size: 18px; /* タブレットでは少し小さめに */
-    }
-}
-
-/* スマートフォンサイズ (画面幅が767px以下) */
-@media (max-width: 767px) {
-    .speech-text {
-        font-size: 16px; /* スマートフォンではさらに小さく */
-    }
-}
-
-/* タブレットサイズ (画面幅が768px以上1024px以下) */
-@media (min-width: 768px) and (max-width: 1024px) {
-    .speech-text {
         bottom: 20%; /* タブレットでの吹き出しの位置を調整 */
-        left: 15%; /* タブレットでの吹き出しの位置を調整 */
+        left: 17%; /* タブレットでの吹き出しの位置を調整 */
         width: 200px; /* タブレットでの吹き出しの幅を調整 */
         font-size: 18px; /* タブレットでのフォントサイズを調整 */
     }
@@ -84,7 +70,7 @@ body, html {
 @media (max-width: 767px) {
     .speech-text {
         bottom: 15%; /* スマートフォンでの吹き出しの位置を調整 */
-        left: 20%; /* スマートフォンでの吹き出しの位置を調整 */
+        left: 25%; /* スマートフォンでの吹き出しの位置を調整 */
         width: 150px; /* スマートフォンでの吹き出しの幅を調整 */
         font-size: 16px; /* スマートフォンでのフォントサイズを調整 */
     }
